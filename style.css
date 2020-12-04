@@ -1,3 +1,18 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(50, 50, 50);
+    
+}
+h1{
+    font-size: 50px;
+    color: tomato;
+}
+p1{
+    color: lightgray;
+}
+a{
+    color: lightskyblue;
+}
+#title{
+    font-size: 60px;
 }
