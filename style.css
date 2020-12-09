@@ -1,18 +1,28 @@
-*{
+body {
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(50, 50, 50);
-    
-}
-h1{
-    font-size: 50px;
-    color: tomato;
-}
-p1{
-    color: lightgray;
-}
-a{
-    color: lightskyblue;
-}
-#title{
-    font-size: 60px;
-}
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
